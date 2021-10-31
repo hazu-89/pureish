@@ -9,6 +9,6 @@ source $HOME/.zsh/plugins/remote/fast-syntax-highlighting/fast-syntax-highlighti
 source $HOME/.zsh/plugins/remote/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 for custom_script in $HOME/.zsh/custom/*.zsh(N); do
-	source custom_script
+	source $custom_script
 done
 
