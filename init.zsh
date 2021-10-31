@@ -1,4 +1,4 @@
-fpath+=$HOME/.zsh/plugins/pure
+fpath+=$HOME/.zsh/plugins/remote/pure
 
 autoload -U promptinit; promptinit
 
