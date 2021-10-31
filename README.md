@@ -13,7 +13,7 @@ git clone --recursive https://github.com/hazu-89/pureish.git ~/.zsh
 and add the following to your `.zshrc`:
 
 ```
-source $HOME/.zsh/init.zsh
+source $HOME/.zsh/pureish.zsh
 ```
 
 --recursive flag is needed because plugins are added as git submodules
