@@ -1,8 +1,8 @@
 # Pureish
 
-A minimal zsh install with pure, zah-autosuggestions and fast-syntax-highlighting
+A minimal zsh install with pure, zsh-autosuggestions and fast-syntax-highlighting
 
-## Install
+### Install
 
 Clone this repo as follows:
 
@@ -20,7 +20,7 @@ source $HOME/.zsh/pureish.zsh
 
 Pureish currently only supports .zsh as your zsh path
 
-## Update
+### Update
 
 Do:
 ```
@@ -28,3 +28,9 @@ git pull --recurse-submodules
 ```
 
 To pull this and plugin repos
+
+### Custom folder
+
+The folder `custom` is for any personal files you'd like in your zsh folder, which may include aliases, scripts, plugins, etc. Anything inside the folder won't be tracked by git.
+
+`.zsh` files in `custom` will be sourced automatically and non-recursively.
