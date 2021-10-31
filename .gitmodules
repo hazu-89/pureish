@@ -1,0 +1,6 @@
+[submodule "plugins/remote/zsh-autosuggestions"]
+	path = plugins/remote/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "plugins/remote/fast-syntax-highlighting"]
+	path = plugins/remote/fast-syntax-highlighting
+	url = https://github.com/zdharma-continuum/fast-syntax-highlighting
