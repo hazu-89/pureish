@@ -18,8 +18,6 @@ source $HOME/.zsh/pureish.zsh
 
 --recursive flag is needed because plugins are added as git submodules
 
-Pureish currently only supports .zsh as your zsh path
-
 ### Update
 
 Do:
@@ -28,6 +26,10 @@ git pull --recurse-submodules
 ```
 
 To pull this and plugin repos
+
+### Options
+
+`PUREISH_DIR`: Path to your Pureish installation, if you wish to install Pureish elsewhere instead of in "~/.zsh". You will have to source the pureish.zsh file accordingly.
 
 ### Custom folder
 
